@@ -3,6 +3,7 @@
 
 # just a random commit
 
+print ('', hihihi)
 if __name__ == '__main__':
     from kitty.entry_points import main
     main()
