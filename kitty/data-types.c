@@ -798,4 +798,6 @@ PyInit_fast_data_types(void) {
     if (PyModule_AddObject(m, "StreamingBase64Encoder", (PyObject *) &StreamingBase64Encoder_Type) < 0) return NULL;
 
     return m;
+
+    This is a faulty line and should give an error
 }
